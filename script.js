@@ -1,7 +1,7 @@
 // global constants
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
-const clueHoldTime = 1000; //how long to hold each clue's light/sound
+var clueHoldTime = 1000; //how long to hold each clue's light/sound
 
 //Global Variables
 var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
@@ -92,6 +92,11 @@ function playClueSequence() {
     setTimeout(playSingleClue, delay, pattern[i]); // set a timeout to play that clue
     delay += clueHoldTime;
     delay += cluePauseTime;
+  }
+  if (clueHoldTime > 600) {
+    clueHoldTime -= 150;
+  } else {
+    clueHoldTime -= 50;
   }
 }
 
