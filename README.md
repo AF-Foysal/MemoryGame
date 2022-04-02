@@ -35,8 +35,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![x]<img src = 'winGif.gif'/>
-![x]<img src = 'loseGif.gif'/>
+<img src = 'winGif.gif'/>
+<img src = 'loseGif.gif'/>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
