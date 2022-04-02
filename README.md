@@ -48,11 +48,12 @@ https://www.the-art-of-web.com/javascript/creating-sounds/
 A challenge encountered in creating this app was implementing the sound into the button presses. As opposed to simply copying and pasting it, most of the time spent was dedicated towards understanding how JavaScript acquires the values for the pitches and how it is applied in this app. In order to overcome this submission, I referred to the link provided by CodePath to navigate through the use of AudioContext. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 Question 1. How does expanding one's website work in terms of gaining more audience and such? Would this push the developer into funneling money towards their project?
 
 Question 2. What is the lifetime of a website based on? I have seen people having to buy monthly domain subscriptions for specific perks and such, but after a while, the website no longer exists. Can this all be done without being dependent on a domain?
 
-Question3. How does one incorporate security onto their website? From this submission, I have seen little to no details regarding encryption or some sort of web security, and I am wondering if implementing some sort of security will be gone over during this internship.
+Question 3. How does one incorporate security onto their website? From this submission, I have seen little to no details regarding encryption or some sort of web security, and I am wondering if implementing some sort of security will be gone over during this internship.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 If I had a few more hours, I would've wanted to implement an additional visual. The visual would be a piano alongside the buttons, and the buttons themselves would be notes on any particular major or minor scale. These notes on the scale would be played at random, and it would be up to the player to repeat the pattern back. The idea would be to possibly train the player to associate the sounds with the notes on the piano. This would serve a similar function to the apps that are designed to help teach a person on how to play an intrument and different pieces of music through hands-on learning. 
